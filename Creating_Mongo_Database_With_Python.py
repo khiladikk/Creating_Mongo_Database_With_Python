@@ -3,8 +3,6 @@ from pymongo import MongoClient
 from datetime import datetime
 #import json
 
-
-
 #Create a connection
 student = MongoClient('localhost', 27017)
 
