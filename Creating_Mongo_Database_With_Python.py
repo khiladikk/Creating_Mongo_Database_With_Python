@@ -1,8 +1,14 @@
+#Importing the required library
 from pymongo import MongoClient
 from datetime import datetime
 #import json
 
+
+
+#Create a connection
 student = MongoClient('localhost', 27017)
+
+#Access DataBase Objects
 mydb = student.db_University
 
 def add_student(student_name, student_age, student_roll_number, student_branch):
