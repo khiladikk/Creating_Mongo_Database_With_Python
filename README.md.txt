@@ -1,0 +1,1 @@
+Write a python code to insert records to a mongo database named db_University for a student with fields like Student_Name, Student_Age, Student_Roll_no, Student_Branch.
